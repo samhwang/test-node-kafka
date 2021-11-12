@@ -1,0 +1,19 @@
+[
+  {
+    "name": "ARecord",
+    "namespace": "com.samhwang.testavro",
+    "type": "record",
+    "fields": [
+      {"name": "first_name", "type": "string"},
+      {"name": "last_name", "type": "string"}
+    ]
+  },
+  {
+    "name": "BRecord",
+    "namespace": "com.samhwang.testavro",
+    "type": "record",
+    "fields": [
+      {"name": "test_attr", "type": "string"}
+    ]
+  }
+]
